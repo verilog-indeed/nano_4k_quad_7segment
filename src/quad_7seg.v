@@ -37,18 +37,20 @@ module quad_7seg    #(parameter HEX_MODE = 1)
             end
         end
     endgenerate
+    initial digitEn = 4'b0001;
     always@(posedge clk) begin
         //time-division multiplexing 
         //change active digit on each clock cycle
-        digitEn = digitEn << 1;
-        if (digitEn == 4'b0000) begin
+        if (digitEn == 4'b1000) begin
             //rotatry shift to maintain a rolling 1 through the enables
-            digitEn = 4'b0001;
+            digitEn <= 4'b0001;
+        end else begin
+            digitEn <= digitEn << 1;
         end
         //If I hardwire the enable to a specific digit, it lights up correctly
         //The selected digit also synthesizes correctly, the remaining 3 get swept in optimizing
         //RTL still hangs
-        //digitEn = 4'b0001;
+        //digitEn <= 4'b0001;
     end
     assign segDrivers[10:7] = {digitEn};
 endmodule

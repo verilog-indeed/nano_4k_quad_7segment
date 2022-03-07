@@ -1,2 +1,5 @@
 impl/
 src/bin2bcd_testbench
+src/file_list.txt
+src/quad_icarus_sim.bat
+src/quad_7seg_testbench
