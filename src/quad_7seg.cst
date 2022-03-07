@@ -1,0 +1,33 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8 Education
+//Part Number: GW1NSR-LV4CQN48PC6/I5
+//Device: GW1NSR-4C
+//Created Time: Sun 03 06 18:03:16 2022
+/*
+IO_LOC "se7enDriver[10]" 35;
+IO_PORT "se7enDriver[10]" IO_TYPE=LVCMOS25 PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[9]" 34;
+IO_PORT "se7enDriver[9]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
+IO_LOC "se7enDriver[8]" 32;
+IO_PORT "se7enDriver[8]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
+*/
+IO_LOC "se7enDriver[7]" 31;
+IO_PORT "se7enDriver[7]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
+IO_LOC "se7enDriver[6]" 13;
+IO_PORT "se7enDriver[6]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[5]" 17;
+IO_PORT "se7enDriver[5]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[4]" 18;
+IO_PORT "se7enDriver[4]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[3]" 19;
+IO_PORT "se7enDriver[3]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[2]" 20;
+IO_PORT "se7enDriver[2]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[1]" 21;
+IO_PORT "se7enDriver[1]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "se7enDriver[0]" 22;
+IO_PORT "se7enDriver[0]" PULL_MODE=NONE DRIVE=8;
+IO_LOC "clk" 45;
+IO_PORT "clk" PULL_MODE=UP;
