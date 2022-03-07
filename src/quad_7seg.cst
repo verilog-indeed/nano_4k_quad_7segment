@@ -5,14 +5,13 @@
 //Part Number: GW1NSR-LV4CQN48PC6/I5
 //Device: GW1NSR-4C
 //Created Time: Sun 03 06 18:03:16 2022
-/*
+
 IO_LOC "se7enDriver[10]" 35;
 IO_PORT "se7enDriver[10]" IO_TYPE=LVCMOS25 PULL_MODE=NONE DRIVE=8;
 IO_LOC "se7enDriver[9]" 34;
 IO_PORT "se7enDriver[9]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
 IO_LOC "se7enDriver[8]" 32;
 IO_PORT "se7enDriver[8]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
-*/
 IO_LOC "se7enDriver[7]" 31;
 IO_PORT "se7enDriver[7]" IO_TYPE=LVCMOS25 PULL_MODE=UP DRIVE=8;
 IO_LOC "se7enDriver[6]" 13;
