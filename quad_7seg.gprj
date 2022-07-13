@@ -9,9 +9,9 @@
         <File path="src/bin2bcd_testbench.v" type="file.verilog" enable="0"/>
         <File path="src/counter_timer_TOP.v" type="file.verilog" enable="1"/>
         <File path="src/quad_7seg.v" type="file.verilog" enable="1"/>
-        <File path="src/quad_7seg_testbench.v" type="file.verilog" enable="1"/>
+        <File path="src/quad_7seg_testbench.v" type="file.verilog" enable="0"/>
         <File path="src/single_7seg.v" type="file.verilog" enable="1"/>
-        <File path="src/single_7seg_test.v" type="file.verilog" enable="1"/>
+        <File path="src/single_7seg_test.v" type="file.verilog" enable="0"/>
         <File path="src/quad_7seg.cst" type="file.cst" enable="1"/>
     </FileList>
 </Project>
